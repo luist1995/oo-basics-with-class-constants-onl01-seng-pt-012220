@@ -14,7 +14,7 @@ class Shoe
 
   def brand=(brand)
     @brand = brand
-    @brand.include?("")
+    @brand.include?("Uggs")
     @brand.size 
     @BRANDS << brand
   end
